@@ -7,7 +7,7 @@ para diseñar e implementar el modelo de datos del ATS de LTI.
 
 ## 1. Análisis del ERD frente al schema existente
 
-```
+```text
 Analiza el schema.prisma actual ubicado en backend/prisma/schema.prisma 
 y el ERD en formato Mermaid que te proporciono a continuación.
 
@@ -48,7 +48,7 @@ diseño posterior:
 
 ## 3. Diseño normalizado (hasta 3FN)
 
-```
+```text
 Basándote en el análisis anterior, diseña la estructura normalizada 
 para las nuevas entidades del ERD siguiendo estas reglas:
 
@@ -146,7 +146,7 @@ ALTER TABLE "Interview"
 
 ## 4. Generación del schema Prisma
 
-```
+```text
 Convierte el diseño normalizado anterior a modelos Prisma válidos 
 para añadir al archivo schema.prisma existente.
 
@@ -171,7 +171,7 @@ cambio en modelos preexistentes, no destructivo.
 
 ## 5. Generación de la migración SQL
 
-```
+```text
 Genera el script SQL equivalente a los modelos Prisma anteriores, 
 compatible con PostgreSQL.
 
@@ -191,7 +191,7 @@ para poder verificar la estructura en DBeaver.
 
 ## 6. Implementación y migración aplicada
 
-```
+```text
 Start implementation
 ```
 
@@ -221,7 +221,7 @@ La implementación se realizó en los siguientes pasos:
 
 ## 7. Auditoría final
 
-```
+```text
 Revisa el conjunto completo: schema.prisma actualizado + migration.sql 
 y comprueba que:
 
